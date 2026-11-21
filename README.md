@@ -4,7 +4,7 @@
 
 **A fast, polished installer for bug bounty tooling — built for Termux, works on any Debian-family Linux.**
 
-[![CI](https://github.com/nexacodeid/bb-arsenal/actions/workflows/ci.yml/badge.svg)](https://github.com/nexacodeid/bb-arsenal/actions/workflows/ci.yml)
+[![CI](https://github.com/nexacodeid/bb-arsenal/actions/workflows/ci.yml/badge.svg)](https://github.com/nexacodeid/Arsenal/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/python-3.9%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Platform](https://img.shields.io/badge/platform-Termux%20%7C%20Linux-lightgrey)
