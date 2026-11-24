@@ -31,10 +31,11 @@ dev = ["pytest>=7", "mypy>=1.8", "ruff>=0.5"]
 
 [project.scripts]
 bb-arsenal = "bb_arsenal.cli:main"
+bb-recon = "bb_arsenal.recon.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/nexacodeid/bb-arsenal"
-Issues = "https://github.com/nexacodeid/bb-arsenal/issues"
+Homepage = "https://github.com/your-username/bb-arsenal"
+Issues = "https://github.com/your-username/bb-arsenal/issues"
 
 [tool.setuptools.dynamic]
 version = { attr = "bb_arsenal.__version__" }

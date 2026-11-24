@@ -3,6 +3,18 @@
 All notable changes to this project are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project uses [Semantic Versioning](https://semver.org/).
 
+## [1.1.0] - 2026-11-25
+
+### Added
+- `bb-recon`: an automated recon pipeline chaining every tool `bb-arsenal` installs
+  (subfinder/assetfinder → anew → dnsx → httpx → katana/gau → uro → gf, with optional
+  active stages for port scanning, parameter discovery, directory fuzzing and XSS confirmation).
+- Dependency-resolved stage selection — picking one stage pulls in whatever it needs.
+- An authorisation confirmation screen before any stage runs (skippable with `-y`).
+- `--dry-run`, `--list-stages`, and a per-target workspace under `~/bb-recon/<target>/`.
+- A stage that is missing its tool, or has nothing to work with yet, is reported as `skip`
+  rather than aborting the run.
+
 ## [1.0.0] - 2026-11-22
 
 ### Added

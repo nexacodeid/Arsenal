@@ -58,6 +58,8 @@ THEME = Style.from_dict({
     "tag.fuzzing": "#ffd75f",
     "tag.scanners": "#ff8787",
     "tag.extras": "#d787ff",
+    "tag.passive": "#87d787",
+    "tag.active": "#ff8787",
 })
 
 
